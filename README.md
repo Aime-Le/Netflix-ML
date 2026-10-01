@@ -1,5 +1,5 @@
 # Netflix Content Recommendation System
-## Auspify Technologies — Machine Learning Internship — Task 1
+## This a ML Internship project in  Auspify Technologies No.1
 
 ### Project overview
 This project implements a **content-based Netflix recommendation system**.
@@ -7,7 +7,7 @@ Given a selected Netflix title, the system recommends other titles with
 similar content attributes.
 
 ### Task 1 workflow
-The implementation follows the internship Task 1 workflow:
+work follows the following rule
 
 1. Prepare content-related features.
 2. Convert text data into a machine-readable representation.
@@ -47,9 +47,6 @@ The project evaluates recommendation quality using:
 - Lowest similarity score
 - Genre/category overlap
 
-For the included example run, the evaluation summary is stored in
-`evaluation_summary.txt`.
-
 ### Files
 
 ```text
@@ -71,14 +68,14 @@ Netflix_Content_Recommendation_Task1_Submission/
     └── 02_dataset_loaded.png
 ```
 
-### How to run in Google Colab
+### To run in Google Colab 
 
 1. Upload `Dataset.csv`.
 2. Upload or open the notebook in the `notebook` folder.
 3. Run the cells from top to bottom.
 4. Check the recommendation and evaluation outputs.
 
-### How to run in VS Code
+### To run in VS Code
 
 Open a terminal in this project folder and install the requirements:
 
@@ -91,17 +88,6 @@ Then run:
 ```bash
 python netflix_recommendation.py
 ```
-
-### Example
-The included example uses:
-
-```text
-Midnight Mass
-```
-
-The system returns the top 10 similar Netflix titles together with their
-type, genres/categories, and cosine similarity scores.
-
 ### Skills demonstrated
 
 - Python
@@ -114,9 +100,3 @@ type, genres/categories, and cosine similarity scores.
 - Content-based recommendation systems
 - Scikit-learn
 - Model evaluation
-
-### Submission note
-A separate Streamlit application is **not required for the core Task 1
-machine-learning workflow**. This submission focuses on the required
-recommendation-system implementation, results, evaluation, source code,
-notebooks, and screenshots.
