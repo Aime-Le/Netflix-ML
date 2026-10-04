@@ -5,7 +5,8 @@
 This project implements a **content-based Netflix recommendation system**.
 Given a selected Netflix title, the system recommends other titles with
 similar content attributes.
-
+### See Result in APP
+https://netflix-recommender-aimele.streamlit.app/#netflix-content-recommendation-system
 ### Task 1 workflow
 work follows the following rule
 
